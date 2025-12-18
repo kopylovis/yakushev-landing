@@ -12,7 +12,7 @@ const HeaderLogo = () => {
     <header className={`${styles.header} ${isVisible ? styles.visible : ''}`}>
       <div className={styles.logoWrapper}>
         <img
-          src="/assets/logo.png"
+          src={`${import.meta.env.BASE_URL}assets/logo.png`}
           alt="Якушев Мебель - логотип"
           className={styles.logo}
         />

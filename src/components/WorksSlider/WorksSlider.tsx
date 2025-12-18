@@ -10,16 +10,18 @@ interface WorksSliderProps {
   onImageClick: (imageUrl: string) => void;
 }
 
+const getImagePath = (filename: string) => `${import.meta.env.BASE_URL}assets/${filename}`;
+
 const images = [
-  '/assets/IMG_5094.JPG',
-  '/assets/IMG_5100.JPG',
-  '/assets/IMG_5547.JPG',
-  '/assets/IMG_5549.JPG',
-  '/assets/IMG_6359.JPG',
-  '/assets/IMG_6371.JPG',
-  '/assets/IMG_6378.JPG',
-  '/assets/IMG_6679.JPG',
-  '/assets/IMG_6697.JPG',
+  getImagePath('IMG_5094.JPG'),
+  getImagePath('IMG_5100.JPG'),
+  getImagePath('IMG_5547.JPG'),
+  getImagePath('IMG_5549.JPG'),
+  getImagePath('IMG_6359.JPG'),
+  getImagePath('IMG_6371.JPG'),
+  getImagePath('IMG_6378.JPG'),
+  getImagePath('IMG_6679.JPG'),
+  getImagePath('IMG_6697.JPG'),
 ];
 
 const WorksSlider = ({ onImageClick }: WorksSliderProps) => {
