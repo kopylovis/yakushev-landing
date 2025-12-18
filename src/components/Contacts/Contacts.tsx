@@ -36,21 +36,21 @@ const Contacts = () => {
           <p className={styles.subtitle}>
             Рассчитаем стоимость и создадим 3D-визуализацию в течение дня
           </p>
-        </div>
 
-        <div className={styles.socialLinks}>
-          {socialLinks.map((social) => (
-            <a
-              key={social.name}
-              href={social.url}
-              className={styles.socialLink}
-              aria-label={social.ariaLabel}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className={styles.socialName}>{social.name}</span>
-            </a>
-          ))}
+          <div className={styles.socialLinks}>
+            {socialLinks.map((social) => (
+              <a
+                key={social.name}
+                href={social.url}
+                className={styles.socialLink}
+                aria-label={social.ariaLabel}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className={styles.socialName}>{social.name}</span>
+              </a>
+            ))}
+          </div>
         </div>
 
         <footer className={styles.footer}>
