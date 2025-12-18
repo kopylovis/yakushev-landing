@@ -6,36 +6,36 @@ export interface SocialLink {
 }
 
 export const socialLinks: SocialLink[] = [
-  {
-    name: 'Telegram',
-    url: 'https://t.me/yakushev_furniture',
-    icon: '✈️',
-    ariaLabel: 'Связаться через Telegram'
-  },
-  {
-    name: 'WhatsApp',
-    url: 'https://wa.me/79000000000',
-    icon: '💬',
-    ariaLabel: 'Написать в WhatsApp'
-  },
-  {
-    name: 'VK',
-    url: 'https://vk.com/yakushev_furniture',
-    icon: '🔵',
-    ariaLabel: 'Перейти в VK'
-  },
-  {
-    name: 'Мах',
-    url: 'https://max.ru/yakushev_furniture',
-    icon: '📱',
-    ariaLabel: 'Связаться через Мах'
-  },
-  {
-    name: 'Почта',
-    url: 'mailto:yakushevmebel@mail.ru',
-    icon: '✉️',
-    ariaLabel: 'Написать на почту'
-  }
+    {
+        name: "Telegram",
+        url: "https://t.me/yakushevmeb",
+        icon: "✈️",
+        ariaLabel: "Связаться через Telegram",
+    },
+    {
+        name: "WhatsApp",
+        url: "https://wa.me/message/PQG4NCSU37YOP1",
+        icon: "💬",
+        ariaLabel: "Написать в WhatsApp",
+    },
+    {
+        name: "VK",
+        url: "https://vk.com/yakushevmebel",
+        icon: "🔵",
+        ariaLabel: "Перейти в VK",
+    },
+    {
+        name: "Мах",
+        url: "https://max.ru/yakushev_furniture",
+        icon: "📱",
+        ariaLabel: "Связаться через Мах",
+    },
+    {
+        name: "Почта",
+        url: "mailto:yakushevmebel@mail.ru",
+        icon: "✉️",
+        ariaLabel: "Написать на почту",
+    },
 ];
 
 export const contactInfo = {
