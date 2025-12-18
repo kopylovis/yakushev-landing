@@ -72,6 +72,13 @@ body {
   font-size: var(--text-base);
 }
 
+/* Smooth scroll only on desktop */
+@media (hover: hover) and (pointer: fine) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
