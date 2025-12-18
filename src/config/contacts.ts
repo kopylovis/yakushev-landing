@@ -29,6 +29,12 @@ export const socialLinks: SocialLink[] = [
     url: 'https://max.ru/yakushev_furniture',
     icon: '📱',
     ariaLabel: 'Связаться через Мах'
+  },
+  {
+    name: 'Почта',
+    url: 'mailto:yakushevmebel@mail.ru',
+    icon: '✉️',
+    ariaLabel: 'Написать на почту'
   }
 ];
 
