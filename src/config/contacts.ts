@@ -1,0 +1,32 @@
+export interface SocialLink {
+  name: string;
+  url: string;
+  icon: string;
+  ariaLabel: string;
+}
+
+export const socialLinks: SocialLink[] = [
+  {
+    name: 'Telegram',
+    url: 'https://t.me/yakushev_furniture',
+    icon: '✈️',
+    ariaLabel: 'Связаться через Telegram'
+  },
+  {
+    name: 'WhatsApp',
+    url: 'https://wa.me/79000000000',
+    icon: '💬',
+    ariaLabel: 'Написать в WhatsApp'
+  },
+  {
+    name: 'VK',
+    url: 'https://vk.com/yakushev_furniture',
+    icon: '🔵',
+    ariaLabel: 'Перейти в VK'
+  }
+];
+
+export const contactInfo = {
+  phone: '+7 (900) 000-00-00',
+  email: 'info@yakushev-furniture.ru'
+};
