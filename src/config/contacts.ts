@@ -23,10 +23,16 @@ export const socialLinks: SocialLink[] = [
     url: 'https://vk.com/yakushev_furniture',
     icon: '🔵',
     ariaLabel: 'Перейти в VK'
+  },
+  {
+    name: 'Мах',
+    url: 'https://max.ru/yakushev_furniture',
+    icon: '📱',
+    ariaLabel: 'Связаться через Мах'
   }
 ];
 
 export const contactInfo = {
   phone: '+7 (900) 000-00-00',
-  email: 'info@yakushev-furniture.ru'
+  email: 'yakushevmebel@mail.ru'
 };

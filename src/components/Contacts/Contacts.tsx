@@ -31,11 +31,12 @@ const Contacts = () => {
       className={`${styles.contacts} ${isVisible ? styles.visible : ''}`}
     >
       <div className={styles.container}>
-        <h2 className={styles.title}>Контакты</h2>
-
-        <p className={styles.subtitle}>
-          Свяжитесь с нами удобным способом
-        </p>
+        <div className={styles.ctaBlock}>
+          <h2 className={styles.title}>Готовы создать кухню вашей мечты?</h2>
+          <p className={styles.subtitle}>
+            Рассчитаем стоимость и создадим 3D-визуализацию в течение дня
+          </p>
+        </div>
 
         <div className={styles.socialLinks}>
           {socialLinks.map((social) => (
@@ -47,9 +48,6 @@ const Contacts = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className={styles.socialIcon} aria-hidden="true">
-                {social.icon}
-              </span>
               <span className={styles.socialName}>{social.name}</span>
             </a>
           ))}
