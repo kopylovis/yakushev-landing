@@ -57,7 +57,13 @@ const Contacts = () => {
 
         <footer className={styles.footer}>
           <p className={styles.copyright}>
-            © {new Date().getFullYear()} Якушев Мебель
+            © {new Date().getFullYear()} ИП Якушев Василий Владиславович
+          </p>
+          <p className={styles.legalInfo}>
+            ОГРНИП 322619600184670, ИНН 614003685754
+          </p>
+          <p className={styles.email}>
+            Электронная почта: <a href="mailto:yakushevmebel@mail.ru" className={styles.emailLink}>yakushevmebel@mail.ru</a>
           </p>
         </footer>
       </div>

@@ -83,7 +83,30 @@
 .copyright {
   font-size: 14px;
   color: #808080;
+  margin: 0 0 8px;
+}
+
+.legalInfo {
+  font-size: 13px;
+  color: #666666;
+  margin: 0 0 8px;
+}
+
+.email {
+  font-size: 13px;
+  color: #808080;
   margin: 0;
+}
+
+.emailLink {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.emailLink:hover {
+  color: #e0c04a;
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
