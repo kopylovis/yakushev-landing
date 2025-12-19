@@ -26,7 +26,7 @@ export const socialLinks: SocialLink[] = [
     },
     {
         name: "Мах",
-        url: "https://max.ru/yakushev_furniture",
+        url: "https://max.ru/u/f9LHodD0cOKiB5Mc_S4z2s8jm1NMD35Sn8HY6LJA8WhqohXG4j--IEgBkrI",
         icon: "📱",
         ariaLabel: "Связаться через Мах",
     },
